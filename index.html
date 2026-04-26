@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disciplina</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <div id="app">
+
+        <canvas id="canvas"></canvas>
+
+        <div id="glow-ring"></div>
+
+        <div id="ctrl-musica">
+            <span id="lbl-musica">Música</span>
+            <button id="btn-musica" title="Pausar / Reanudar música">⏸</button>
+        </div>
+
+        <div id="frase-box">
+            <p id="frase-texto"></p>
+        </div>
+
+        <div id="indicador"></div>
+
+        <button id="btn-camina" onclick="disciplina.caminar()">Camina</button>
+
+        <audio id="audio-fondo" loop preload="auto">
+            <source src="songq.mp3" type="audio/mpeg">
+            <source src="songq.mp3" type="audio/ogg">
+        </audio>
+
+    </div>
+
+    
+    <script src="Dicipline.js"></script>
+
+</body>
+</html>
