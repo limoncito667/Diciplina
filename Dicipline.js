@@ -217,7 +217,7 @@ class SecuenciaFrases {
         this._actualizarPuntos();
 
         // El título dura 2 s, el resto 2.5 s
-        const duracion = frase.esTitulo ? 2000 : 2500;
+        const duracion = frase.esTitulo ? 2000 : 3500;
 
         setTimeout(() => {
             el.classList.remove('visible');
